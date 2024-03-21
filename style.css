@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body{
+    margin: 0;
+    display: flex;
+    font-family: 'Manrope',sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #eff3f4;
+    height: 100vh;
+}
+
+.profile__div{
+    padding: 10px;
+    max-width: 450px;
+    background-color: #fff;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.148);
+    border-radius: 12px;
+}
+
+.profile__div .photo__div img{
+    width: 150px;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.profile__div .info_user h1{
+    font-size: 30px;
+}
+
+.red_social_div i{
+    font-size: 25px;
+    padding: 10px;
+    color: #333;
+    margin-left: 40px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.148);  
+}
+
+.red_social_div i:hover{
+    color: #444;
+    border: 1px solid rgba(0, 0, 0, 0.2);  
+}
+
+.profile__div .description_div p{
+    padding: 6px;
+}
+
+.profile__div button{
+    background-color: #3d5afe;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.profile__div button:hover{
+    background-color: #304ffe;
+}
